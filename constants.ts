@@ -9,7 +9,7 @@ export const PERSONAL_INFO = {
   linkedin: "https://linkedin.com/in/sahilgarg15591",
   // Updated with LinkedIn profile picture
   profileImage: "https://media.licdn.com/dms/image/v2/D5603AQGngNBlMPFQKg/profile-displayphoto-shrink_200_200/B56ZTpzvBKGsAY-/0/1739089441427?e=2147483647&v=beta&t=dt6-RX6YOa_pH65MYWL15S8nhpIXH1LsEz1uiPP7q_g",
-  summary: "HR professional with 10+ years of experience across HR Business Partnering (Tech & Non-Tech), Performance, Compensation, Rewards, Talent Management, Acquisition and Organizational Development. Adept at driving HR strategies across diverse industries including Fintech, Oil & Gas, Manufacturing, Ed-Tech, Solar-Tech, and Construction.",
+  summary: "Results-driven HR Leader with 10+ years of experience across business partnering, compensation, performance, talent management, and organizational development in fintech, tech, manufacturing, and energy sectors. Currently leading global HR functions across UAE, West Africa, and India, with a strong track record of building HR frameworks from scratch, scaling teams, and driving measurable business impact—such as reducing hiring TAT by 50%, improving retention by 20%, and achieving 95%+ OKR adoption. An XLRI MBA (HRM) graduate, recognized for aligning people strategy with business outcomes, optimizing workforce costs, and leading high-performing multinational teams.",
 };
 
 export const EDUCATION = {
@@ -107,8 +107,8 @@ export const EXPERIENCES: Experience[] = [
 
 export const SKILL_GROUPS: SkillGroup[] = [
   { category: "Core HR", skills: ["HR Business Partnership", "Talent Acquisition", "Talent Management", "Org Development"] },
-  { category: "Performance & Rewards", skills: ["Compensation and Rewards", "Performance Management", "ESOPs & Appraisals"] },
-  { category: "Strategic", skills: ["Workforce Planning", "Succession Planning", "Product Management (Hiring Tech)"] },
+  { category: "Performance & Rewards", skills: ["Compensation", "Total Rewards", "Performance Management", "ESOPs", ] },
+  { category: "Strategic", skills: ["Workforce Planning", "Succession Planning", "Product Management (HR Tech)"] },
   { category: "Modern Tech", skills: ["AI in HR", "Vibe Coding", "Dashboard Analytics"] },
 ];
 

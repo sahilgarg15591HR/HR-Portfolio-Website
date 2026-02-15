@@ -55,7 +55,7 @@ export const Hero: React.FC = () => {
 
         <div className="text-center md:text-left space-y-6">
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-blue-50 text-blue-700 rounded-full text-sm font-bold uppercase tracking-widest animate-pulse border border-blue-100">
-            <Sparkles className="w-4 h-4" /> Available for Global HR Leadership
+            <Sparkles className="w-4 h-4" /> Available for Global HR Leadership Roles
           </div>
           <h1 className="text-5xl md:text-7xl font-extrabold text-slate-900 tracking-tight leading-tight">
             {PERSONAL_INFO.name}
