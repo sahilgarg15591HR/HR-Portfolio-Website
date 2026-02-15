@@ -40,7 +40,12 @@ export const Hero: React.FC = () => {
               <Mail className="w-6 h-6" />
             </a>
             <button 
-              onClick={() => window.print()}
+               onClick={() => {
+                const link = document.createElement("a");
+                link.href = "/sahil_garg_dubai_CV_XLRI_HR.pdf"; // put your PDF in public folder
+                link.download = "Sahil_Garg_XLRI_Dubai_CV.pdf";
+                link.click();
+              }}
               className="flex items-center gap-2 px-6 py-3 bg-slate-900 text-white rounded-2xl font-semibold hover:bg-slate-800 transition-all active:scale-95 shadow-lg shadow-slate-200"
             >
               <Download className="w-5 h-5" /> Download CV
